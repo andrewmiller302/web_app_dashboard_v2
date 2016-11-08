@@ -1,0 +1,39 @@
+.charts{
+  float: left;
+  width: 100%;
+}
+
+#hourlyTraffic, #dailyTraffic, monthlyTraffic{
+  display: none;
+  
+}
+
+
+.trafficWrap{
+  width: 100%;
+  height: 300px;
+  margin-bottom: 2em;
+  
+  
+   
+}
+.dailyWrap{
+  width: 50%;
+  height:300px;
+  float: left;
+  border: solid;
+  border-color: lightgray;
+  border-width: thin;
+  padding: 1em;
+}
+
+.mobileWrap{
+  width: 50%;
+  height:300px;
+  float: right;
+  border: solid;
+  border-color: lightgray;
+  border-width: thin;
+  padding: 1em
+}
+

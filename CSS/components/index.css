@@ -1,0 +1,380 @@
+.charts {
+  float: left;
+  width: 100%; }
+
+#hourlyTraffic, #dailyTraffic, monthlyTraffic {
+  display: none; }
+
+.trafficWrap {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 2em; }
+
+.dailyWrap {
+  width: 50%;
+  height: 300px;
+  float: left;
+  border: solid;
+  border-color: lightgray;
+  border-width: thin;
+  padding: 1em; }
+
+.mobileWrap {
+  width: 50%;
+  height: 300px;
+  float: right;
+  border: solid;
+  border-color: lightgray;
+  border-width: thin;
+  padding: 1em; }
+
+/*************************
+New Members
+*************************/
+.memberWrap {
+  display: flex;
+  width: 95%;
+  margin-top: 4%;
+  align-items: center; }
+
+caption {
+  text-align: left;
+  color: lightslategray;
+  text-transform: uppercase;
+  margin-bottom: 3%; }
+
+.newMembers {
+  width: 50%;
+  height: 309px;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+  padding: 1em 0 0 2em;
+  float: left; }
+
+.membersTable {
+  display: table-row-group;
+  vertical-align: middle;
+  border-collapse: collapse;
+  width: 100%; }
+
+td {
+  display: table-cell;
+  padding-right: 20px;
+  padding-top: 10px;
+  border-bottom: solid thin lightgray; }
+
+.memberName {
+  color: #363678;
+  font-weight: bold; }
+
+.memberDate {
+  color: #363678;
+  text-align: right;
+  width: 200px; }
+
+/*************************
+Members Activity
+*************************/
+.recentActivity {
+  width: 50%;
+  height: 309px;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+  padding: 1em 0 0 2em;
+  float: right; }
+
+.activityTable {
+  display: table-row-group;
+  vertical-align: middle;
+  border-collapse: collapse;
+  width: 100%; }
+
+.arrow {
+  text-align: right;
+  width: 200px;
+  font-size: 2em;
+  font-weight: normal;
+  color: lightslategray; }
+
+.activityTime {
+  color: lightslategray;
+  font-size: 1em; }
+
+.last {
+  border-bottom: none; }
+
+/*.socailMember{
+  display: inline;
+  width: 25px;
+    
+}
+.socailCell{
+  padding: 0;
+  text-align: center;
+}*/
+.socialWidget {
+  display: inline-block;
+  margin-top: 4%;
+  width: 95%; }
+
+.socialHeading {
+  display: inline;
+  margin-left: 2em;
+  font-size: 1em;
+  color: lightslategray; }
+
+.socialUl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around; }
+
+.socialLi {
+  border: solid;
+  border-color: lightgrey;
+  border-width: thin;
+  width: 27%;
+  height: 100px;
+  border-radius: 2%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center; }
+
+.socialIcon {
+  display: inline-block;
+  background-color: #7477AC;
+  width: 5em;
+  height: 5em;
+  border-radius: 100%;
+  text-align: center;
+  margin: 0 1em 0 1em; }
+
+.icon {
+  margin-top: 15px;
+  width: 70%; }
+
+.faceIcon {
+  margin-top: 4px;
+  width: 80%; }
+
+.text {
+  margin: 0 auto;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #363678; }
+
+.textNum {
+  font-size: 3em;
+  margin: 0;
+  color: lightslategray; }
+
+.centerIcon {
+  height: 100%; }
+
+.myAvatar {
+  border-left: solid;
+  border-left-width: thin;
+  padding: 0 1em 0 1em; }
+
+.avatar {
+  border-radius: 100%;
+  width: 3em;
+  height: 3em; }
+
+.trafficNav {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1em;
+  padding-bottom: .5em; }
+
+.trafficTitle {
+  margin-right: auto;
+  margin-left: 1em; }
+
+.trafficButton {
+  border: none;
+  color: lightslategray;
+  text-decoration: none;
+  font-size: 1em;
+  background-color: white;
+  font-weight: bold;
+  padding: .5em; }
+
+.trafficSelect {
+  background-color: #8bc491;
+  color: aliceblue;
+  border-radius: 50%; }
+
+.trafficButton:hover {
+  color: darkslategray;
+  border-radius: 50%; }
+
+/***************************
+BASE
+***************************/
+.messageSettingsWrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  align-items: center; }
+
+.messageWidget {
+  width: 50%;
+  height: 338px;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray; }
+
+.settingsWidget {
+  width: 50%;
+  height: 338px;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray; }
+
+/**********************************
+MESSAGE WIDGET
+***********************************/
+.messagTitle {
+  text-transform: uppercase;
+  color: lightslategray;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: normal;
+  margin-left: 10px; }
+
+.userSearch {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  font-size: 0;
+  margin: 0;
+  padding: 0; }
+
+#userSearch {
+  display: inline-block;
+  margin-left: 24.96px;
+  margin-right: 24.96px;
+  width: 550px;
+  height: 35px;
+  border-radius: 5px; }
+
+#message {
+  margin-left: 24.96px;
+  margin-right: 24.96px;
+  margin-top: 15px;
+  width: 550px;
+  height: 150px;
+  border-radius: 5px; }
+
+.sendButton {
+  background-color: #363678;
+  border: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 550px;
+  height: 45px;
+  margin-left: 24.96px;
+  margin-right: 24.96px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  border-radius: 5px; }
+
+.sendButton:hover {
+  background-color: grey; }
+
+/***************************
+Settings
+****************************/
+.switch {
+  opacity: 0;
+  display: inline; }
+
+.switchBtn {
+  width: 80px;
+  height: 30px;
+  background: #e5e5e5;
+  position: relative;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+  padding-top: 8px; }
+
+.switchWrap {
+  float: right;
+  margin-right: 45%;
+  margin-bottom: 20px; }
+
+.switchBtn:before {
+  content: '';
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  background: #fff;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  transition: all 150ms ease-out;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25); }
+
+/*tell switch to move when box is checked*/
+input[type=checkbox]:checked + .switchBtn:before {
+  left: 53px; }
+
+input[type=checkbox]:checked + .switchBtn {
+  background-color: #363678; }
+
+.onoffswitch-inner:before {
+  content: "ON";
+  padding-left: 6px;
+  color: white; }
+
+.onoffswitch-inner:after {
+  content: "OFF";
+  padding-left: 8px;
+  color: #363678; }
+
+.switchLabel {
+  display: inline;
+  float: left;
+  padding-top: 10px;
+  color: lightslategray;
+  margin-left: 10px; }
+
+/******************************
+Settings Buttons
+******************************/
+.setButWrap {
+  margin-top: 20px;
+  margin-left: 24.96px;
+  margin-right: 24.96px; }
+
+.settingButton {
+  width: 250px;
+  height: 45px;
+  margin: 10px;
+  background-color: #363678;
+  border: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px; }
+
+.settingButton:hover {
+  background-color: grey; }
+
+.timezone {
+  width: 550px;
+  height: 35px;
+  margin-left: 24.96px;
+  margin-right: 24.96px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=index.css.map */

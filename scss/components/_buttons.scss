@@ -1,0 +1,31 @@
+.trafficNav{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+.trafficTitle{
+  margin-right: auto;
+  margin-left: 1em;
+}
+
+.trafficButton{
+  border: none;
+  color: lightslategray;
+  text-decoration: none;
+  font-size: 1em;
+  background-color: white;
+  font-weight: bold;
+  padding: .5em;
+  }
+
+.trafficSelect{
+  background-color: #8bc491;
+  color: aliceblue;
+  border-radius: 50%;
+}
+
+.trafficButton:hover{
+  color: darkslategray;
+  border-radius: 50%;
+  }

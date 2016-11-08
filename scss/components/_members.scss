@@ -1,0 +1,140 @@
+
+/*************************
+New Members
+*************************/
+
+.memberWrap{
+  display: flex;
+  width: 95%;
+  margin-top: 4%;
+  align-items: center;
+  //margin-left: 5%;
+
+}
+
+caption{
+  text-align: left;
+  color: lightslategray;
+  text-transform: uppercase;
+  margin-bottom: 3%;
+  
+}
+
+.newMembers{
+  width: 50%;
+  height: 309px;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+  padding: 1em 0 0 2em;
+  float: left;
+  
+}
+
+.membersTable{
+  display: table-row-group;
+  vertical-align: middle;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+td{
+  display: table-cell;
+  padding-right: 20px;
+  padding-top: 10px;
+  border-bottom: solid thin lightgray;
+ 
+}
+
+
+
+.memberName{
+  color: #363678;
+  font-weight: bold;
+}
+
+.memberDate{
+  color: #363678;
+  text-align: right;
+  width: 200px;
+  //padding-right: 60px;
+}
+
+/*************************
+Members Activity
+*************************/
+
+
+.recentActivity{
+  width: 50%;
+  height: 309px;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+  padding: 1em 0 0 2em;
+  float: right;
+  
+}
+
+.activityTable{
+  display: table-row-group;
+  vertical-align: middle;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+.arrow{
+  text-align: right;
+  width: 200px;
+  font-size: 2em;
+  font-weight: normal;
+  color: lightslategray;
+  
+  
+}
+
+.activityTime{
+  color: lightslategray;
+  font-size: 1em;
+}
+.last{
+  border-bottom: none;
+}
+
+/*.socailMember{
+  display: inline;
+  width: 25px;
+    
+}
+.socailCell{
+  padding: 0;
+  text-align: center;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+.socialWidget{
+  display: inline-block;
+  margin-top: 4%;
+  //margin-left: 5%;
+  width: 95%;
+  
+}
+
+.socialHeading{
+  display: inline;
+  margin-left: 2em;
+  font-size: 1em;
+  color: lightslategray;
+  
+}
+
+.socialUl{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  
+}
+
+.socialLi{
+  border: solid;
+  border-color: lightgrey;
+  border-width: thin;
+  width: 27%;
+  height: 100px;
+  border-radius: 2%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+ 
+  
+}
+
+.socialIcon{
+  display: inline-block;
+  background-color: #7477AC;
+  width: 5em;
+  height: 5em;
+  border-radius: 100%;
+  text-align: center;
+  margin: 0 1em 0 1em;
+  
+    
+}
+.icon{
+  margin-top: 15px;
+  width: 70%;
+  }
+
+.faceIcon{
+  margin-top: 4px;
+  width: 80%;
+  }
+
+.text{
+  margin: 0 auto;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #363678;
+    
+}
+
+.textNum{
+  font-size: 3em;
+  margin: 0;
+  color: lightslategray;
+  
+}
+
+.centerIcon{
+  height: 100%;
+}
+
+.myAvatar{
+  border-left: solid;
+  border-left-width: thin;
+  padding: 0 1em 0 1em;
+  //border-left-color: lightslategray;
+}
+.avatar{
+  border-radius: 100%;
+  width: 3em;
+  height: 3em;
+  
+}

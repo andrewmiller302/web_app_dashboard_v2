@@ -1,0 +1,247 @@
+
+/***************************
+BASE
+***************************/
+
+.messageSettingsWrap{
+  display: flex;
+  //flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  align-items: center;
+  
+}
+
+.messageWidget{
+  //float: left;
+  //height: 100%;
+  width: 50%;
+  height: 338px;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+  
+}
+
+.settingsWidget{
+  //float: right;
+  //height: 100%;
+  width: 50%;
+  height: 338px;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+}
+
+
+
+
+/**********************************
+MESSAGE WIDGET
+***********************************/
+
+
+.messagTitle{
+  
+  text-transform: uppercase;
+  color: lightslategray;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: normal;
+  margin-left: 10px;
+  
+}
+
+
+.userSearch{
+  visibility: hidden;
+  //display: inline;
+  height: 0;
+  width: 0;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  
+}
+
+#userSearch{
+  display: inline-block;
+  margin-left: 24.96px;
+  margin-right: 24.96px;
+  width: 550px;
+  height: 35px;
+  border-radius: 5px;
+    
+}
+
+#message{
+  margin-left: 24.96px;
+  margin-right: 24.96px;
+  margin-top: 15px;
+  width: 550px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.sendButton{
+  background-color: #363678;
+  border: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 550px;
+  height: 45px;
+  margin-left: 24.96px;
+  margin-right: 24.96px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  
+}
+
+.sendButton:hover{
+  background-color: grey;
+}
+
+/***************************
+Settings
+****************************/
+
+.switch{
+  opacity:0;
+  display: inline;
+}
+
+.switchBtn{
+  width:80px;
+  height:30px;
+  background: #e5e5e5;
+  position: relative;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,.3);
+  //margin: 0 auto;
+  padding-top: 8px;
+  }
+
+.switchWrap{
+  float: right;
+  margin-right: 45%;
+  margin-bottom: 20px;
+}
+
+.switchBtn:before{
+  content: '';
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  background: #fff;
+  left:2px;
+  top:2px;
+  border-radius: 50%;
+  transition: all 150ms ease-out;
+  box-shadow: 0 2px 2px rgba(0,0,0,.25)
+}
+
+/*tell switch to move when box is checked*/
+
+input[type=checkbox]:checked + .switchBtn:before{
+  left: 53px;
+}
+
+input[type=checkbox]:checked + .switchBtn{
+  background-color: #363678;
+}
+
+.onoffswitch-inner:before{
+  content: "ON";
+  padding-left: 6px;
+  color: white;
+}
+
+.onoffswitch-inner:after{
+  content: "OFF";
+  padding-left: 8px;
+  color: #363678;
+}
+
+.switchLabel{
+  display: inline;
+  float: left;
+  padding-top: 10px;
+  color: lightslategray;
+  margin-left: 10px;
+}
+
+
+/******************************
+Settings Buttons
+******************************/
+
+.setButWrap{
+  margin-top: 20px;
+  margin-left: 24.96px;
+  margin-right: 24.96px;
+}
+
+.settingButton{
+  width: 250px;
+  height: 45px;
+  margin: 10px;
+  background-color: #363678;
+  border: none;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px
+    
+}
+
+.settingButton:hover{
+  background-color: grey;
+}
+
+
+.timezone{
+  width: 550px;
+  height: 35px;
+  margin-left: 24.96px;
+  margin-right: 24.96px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
